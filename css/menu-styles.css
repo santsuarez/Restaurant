@@ -1,0 +1,26 @@
+#menu-section{
+	width: 100%;
+	float: left;
+	height: 500px;
+	background-image: url(../img/menu-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#item-container{
+	margin-top: 20px;
+	width: 100%;
+	height: 450px;
+	background-color: rgba(255,255,255,0.5);
+	overflow: scroll;
+}
+#item-container::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+    background-color: #e84444;
+}
+#item-container::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+.item{
+	float: left;
+}

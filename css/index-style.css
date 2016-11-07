@@ -1,0 +1,55 @@
+#main-section{
+	float: left;
+	background:url(../img/menu-see-more.jpg);
+	background-color: black !important; 
+	height: 405px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	position: relative;
+}
+#main-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#main-section a{
+	border:2px solid white;
+	padding: 10px 40px 10px 40px;
+	color: white;
+	position: absolute;
+	/*top: 50%;
+	left:45%;
+	margin-left: -45px;*/
+}
+#specials{
+	width: 100%;
+	float: left;
+	background-color: #e5e5e5;
+}
+
+#about-us{
+	width: 100%;
+	float: left;
+	background-color: #c9c9c9;
+}
+#about-us h2{
+	margin-left: 80px;
+}
+#our-chefs{
+	width: 100%;
+	float: left;
+	background-color: #e5e5e5; 
+}
+#our-chefs h2{
+	margin-left: 80px;
+}
+
+@media only screen and (max-width: 992px){
+	#main-section a{
+		
+		top: 50%;
+		left:44%;
+		margin-left: -47px;
+	}
+}

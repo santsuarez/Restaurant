@@ -1,0 +1,7 @@
+#reservation-section{
+	background: url(../img/reservation.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	float: left;
+}

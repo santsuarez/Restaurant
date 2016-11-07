@@ -1,0 +1,144 @@
+#logo img{
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 150px;
+}
+#icon-menu-movil{
+	margin-left: 10px;
+}
+.li-text{
+	font-size: 0.9rem !important;
+	border-bottom: 1px solid #2d2d2d;
+	padding: 1rem 1rem 1rem 0.5rem !important;
+
+}
+#location-section{
+	color: white;
+}
+#maps iframe{
+	width: 95%;
+	height: 200px;
+}
+#social-section{
+	color: white;
+}
+.social-icons{
+	background-color: #e84444 !important; 
+	color:white;
+	padding: 10px;
+	float: left;
+	margin: 5px;
+	box-shadow: 0px 0px 5px #2d2d2d;
+}
+.title{
+	margin-left: 50px;
+}
+.image-size{
+	width: 100%;
+	height: auto;
+}
+.text-center{
+	text-align: center;
+}
+.text-padding{
+	padding: 10px;
+}
+#content{
+	display: none;
+}
+/*===============LOADER================*/
+#loader{
+	width: 100%;
+	height: 500px;
+}
+.spinner{
+	width: 80px;
+	height: 80px;
+	
+	justify-content: center;
+	align-items: center;
+
+	border: 2px solid transparent;
+	border-top: 3px solid #f25a41;
+	border-bottom: 3px solid #f25a41;
+	border-radius: 100%;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	animation: spin 1s infinite linear;
+}
+.spinner2{
+	width: 60px;
+	height: 60px;
+	
+	justify-content: center;
+	align-items: center;
+
+	border: 2px solid transparent;
+	border-top: 3px solid #f25a41;
+	border-bottom: 3px solid #f25a41;
+	border-radius: 100%;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	animation: spin2 0.9s infinite linear;
+}
+
+@keyframes spin{
+	from{
+		transform: rotate(0deg);
+	}to{
+		transform: rotate(360deg);
+	}
+}
+@keyframes spin2{
+	from{
+		transform: rotate(0deg);
+	}to{
+		transform: rotate(-360deg);
+	}
+}
+/*======================================*/
+/*==============COLORS==================*/
+.primary{
+	background-color: #e84444 !important;
+}
+.text-primary{
+	color: #e84444 !important;
+}
+.dark{
+	background-color: #ad3232 !important;
+}
+.text-dark{
+	color: #ad3232 !important;
+}
+.accent{
+	background-color: #2d2d2d !important;
+}
+.accent-text{
+	color: #2d2d2d !important;
+}
+.dark-accent{
+	background-color: #232323 !important;
+}
+/*======================================*/
+@media only screen and (max-width: 992px){
+	.title{
+		margin-left: 10% !important;
+		font-size: 2rem;
+	}
+	#logo img{
+		margin-left: 0px;
+		
+	}
+}
